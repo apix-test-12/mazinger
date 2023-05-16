@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   title: test-18nov-2 Orders API for Mazinger
   description: Orders Sock Shop API
-  version: '1.2'
+  version: '1.3'
   contact:
     name: Sample orders Contact data
     url: 'https://developer.mazinger.com'
@@ -10,7 +10,7 @@ info:
 servers:
 - url: https://orders.sock-shop
 paths:
-  "/orders-test":
+  "/orders-test-12":
     post:
       tags:
       - orders
@@ -98,7 +98,7 @@ paths:
                 error: Internal Server Error
                 message: Unable to create order due to unspecified IO error.
                 path: "/orders"
-  "/orders/search/customer_id/test-apix":
+  "/orders/search/customer_id/test-apix-12":
     get:
       tags:
       - orders
