@@ -10,7 +10,7 @@ info:
 servers:
 - url: https://orders.sock-shop
 paths:
-  "/order/pryanshi-test-1":
+  "/order/pryanshi-test-2-final":
     post:
       tags:
       - orders
