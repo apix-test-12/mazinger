@@ -10,7 +10,7 @@ info:
 servers:
 - url: https://orders.sock-shop
 paths:
-  "/order-tests-blessy-19":
+  "/order-tests-blessy-25":
     post:
       tags:
       - orders
@@ -98,7 +98,7 @@ paths:
                 error: Internal Server Error
                 message: Unable to create order due to unspecified IO error.
                 path: "/orders"
-  "/orders/search/customer_id/test-apix-16":
+  "/orders/search/customer_id/test-apix-priyanshi":
     get:
       tags:
       - orders
